@@ -19,3 +19,6 @@ if has ("cscope")
     cscope add cscope.out
 endif
 nmap <C-\> :cs find 0 <C-R>=expand("<cword>")<CR><CR>
+if &term =~ '256color'
+    set t_ut=
+endif
