@@ -2,6 +2,7 @@ set nu
 filetype plugin indent on
 syntax enable
 inoremap jj <esc>
+inoremap <CR> <esc>:redraw<CR>:startinsert!<CR><CR>
 nnoremap <CR> :noh<CR>
 set tabstop=4
 set shiftwidth=4
